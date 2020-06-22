@@ -29,3 +29,33 @@
   letter-spacing: 0.03em;
   background-color: #ffffff;
 }
+
+.FormEnter {
+  width: 100vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.BoxEnter {
+  font-size: 1.4em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #6c90df;
+  text-shadow: 1px 1px 1px black;
+}
+
+.Enter {
+  margin-left: 0.4em;
+  width: 13vw;
+  height: 2.8vh;
+  border-radius: 2px;
+  border: 1px solid #6c90df;
+}
+
+.Text {
+  color: #ee660b;
+  text-shadow: 1px 1px 1px black;
+  font-size: 1.8em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

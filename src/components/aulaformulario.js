@@ -26,17 +26,17 @@ class forml extends React.Component {
     render() {
         return (
             <div>
-                <form>
-                    <label>
+                <form className="FormEnter">
+                    <label className="BoxEnter">
                         nome :
-                        <input onChange={this.getname} type="name" placeholder="escreva aqui" />
+                        <input className="Enter" onChange={this.getname} type="name" placeholder="escreva aqui" />
                     </label>
-                    <p>{this.state.nome}</p>
-                    <label>
+                    <label className="BoxEnter">
                         idade :
-                        <input onChange={this.getage} type="number" placeholder="digitar aqui" />
+                        <input className="Enter" onChange={this.getage} type="number" placeholder="digitar aqui" />
                     </label>
-                    <p>{this.state.idade}</p>
+                    <p className="Text">{this.state.nome}</p>
+                    <p className="Text">{this.state.idade}</p>
                 </form>
             </div>
         )
