@@ -2,21 +2,30 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.BoxS {
+  width: 100%;
+  height: 30vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#cor {
+  width: 100vw;
+  height: 5vh;
+  font-size: 2.3em;
+  letter-spacing: 0.03em;
+  font-style: oblique;
+  font-family: fantasy;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
 }
 
-.App-link {
-  color: #09d3ac;
+.Click {
+  width: 7vw;
+  height: 3.8vh;
+  margin-left: 0.8em;
+  border-radius: 3px;
+  border: 1px solid #0d0d0e;
+  color: #0d0d0e;
+  font-size: 1em;
+  letter-spacing: 0.03em;
+  background-color: #ffffff;
 }

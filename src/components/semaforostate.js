@@ -19,11 +19,11 @@ class Semaforo extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="BoxS">
                 <p id={'cor'}>{this.state.semaforo}</p>
-                <button onClick={() => this.ficar('red')}>vermelho</button>
-                <button onClick={() => this.ficar('yellow')}>amarelo</button>
-                <button onClick={() => this.ficar('green')}>verde</button>
+                <button className="Click" onClick={() => this.ficar('red')}>vermelho</button>
+                <button className="Click" onClick={() => this.ficar('yellow')}>amarelo</button>
+                <button className="Click" onClick={() => this.ficar('green')}>verde</button>
             </div>
         )
     }
